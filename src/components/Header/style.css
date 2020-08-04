@@ -1,0 +1,47 @@
+header {
+  background-color: #ff6600;
+  position: sticky;
+  top: 0;
+  box-shadow: 3px 0 5px 4px rgb(179, 173, 173);
+}
+.logo-container {
+  padding: 5px 0;
+  max-width: 200px;
+}
+.header-wrapper {
+  width: 90%;
+  margin: auto;
+}
+.logo {
+  width: 80px;
+}
+.logo img {
+  vertical-align: middle;
+  width: 32%;
+}
+.logo-text {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 400;
+}
+@media only screen and (min-width: 580px) {
+  .logo-container {
+    max-width: 250px;
+  }
+  .logo-text {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .logo-container {
+    max-width: 300px;
+  }
+  .logo-text {
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .header-wrapper {
+    max-width: 1000px;
+  }
+}

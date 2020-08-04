@@ -1,0 +1,12 @@
+.storyinfo-item {
+  color: #95a5a6;
+  text-decoration: none;
+  font-size: 16px;
+}
+.storyinfo-item img {
+  width: 30px;
+  vertical-align: middle;
+}
+.info {
+  margin-left: 6px;
+}

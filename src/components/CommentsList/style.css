@@ -1,0 +1,15 @@
+/* overriding component styles */
+.slide-pane__header {
+  background: none !important;
+}
+.slide-pane__close svg {
+  width: 19px !important;
+  transition: 0.2s ease;
+}
+.slide-pane__close svg:hover {
+  color: #ff6600;
+}
+.comments-heading {
+  font-size: 24px;
+  margin: 10px 0 25px;
+}

@@ -1,0 +1,15 @@
+.comment-btn {
+  background: none;
+  border: none;
+  outline: none;
+  color: #95a5a6;
+  font-size: 16px;
+  cursor: pointer;
+}
+.comment-icon {
+  width: 30px;
+  vertical-align: middle;
+}
+.total-comments {
+  margin-left: 6px;
+}
